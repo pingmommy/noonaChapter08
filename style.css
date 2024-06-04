@@ -1,0 +1,246 @@
+.nav-link,
+.navbar-brand {
+  color: #818181;
+  text-decoration: none;
+}
+
+.nav-container {
+  background-color: #041e3a;
+  padding: 0.3rem;
+}
+
+.nav-link:hover {
+  color: white;
+  transform: translateY(-3px);
+}
+
+.logo {
+  padding-right: 2rem;
+  color: white;
+  font-family: "LeJeuneDeck-Regular", Times, serif !important;
+}
+
+.shopseciton {
+  width: 100%;
+
+  background-image: url("https://cdn-fsly.yottaa.net/62b4643a4f1bbf4e83e90207/o~f_webp/v~4b.51.0.0/https://www.ralphlauren.co.kr/on/demandware.static/-/Library-Sites-RalphLauren_EU_Library/ko_KR/v1717452508468/img/202402/20240207-kr-home-hub-refresh/0207_kr_home_hub_refresh_c02_bg.jpg");
+  background-size: cover;
+}
+
+.ft-item-head {
+  font-family: "Founders Grotesk text Regular", Arial, Helvetica, sans-serif;
+  list-style: none;
+  color: #041e3a;
+}
+
+.ft-item {
+  font-family: "Founders Grotesk text Regular", Arial, Helvetica, sans-serif;
+  list-style: none;
+  color: #818181;
+}
+
+li {
+  list-style: none;
+}
+li a {
+  color: #818181;
+  font-size: x-small;
+  text-decoration: none;
+}
+
+.ft-item-border {
+  border-top: 1px solid #818181;
+  border-bottom: 1px solid #818181;
+}
+.ft-info-border {
+  border-right: 1px solid #818181;
+}
+.info-email {
+  font-family: "Founders Grotesk text Regular", Arial, Helvetica, sans-serif;
+  color: #041e3a;
+  font-size: small;
+}
+
+.info-p {
+  color: #818181;
+  font-size: x-small;
+}
+.submit {
+  background-color: #041e3a;
+  color: white;
+}
+.last {
+  font-size: xx-small;
+  color: #818181;
+}
+
+.candle-text {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  color: white;
+  position: absolute;
+  bottom: 20%;
+  left: 35%;
+}
+
+.bath-text {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  color: black;
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+}
+
+.btn-outline-light {
+  font-family: "Founders Grotesk text Regular", Arial, Helvetica, sans-serif;
+}
+
+.product-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.product {
+  transition: transform 0.5s ease-in-out;
+}
+.product-detail {
+  font-family: LeJeuneDeck-Regular, Times New Roman, "Noto Serif KR", Times,
+    serif;
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.product-box:hover .product {
+  transform: scale(1.2);
+}
+
+.product-box:hover .product-detail {
+  opacity: 1;
+}
+
+.rlc-intro .rlc-title {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 2.375em;
+  line-height: 1.684em;
+  text-align: left;
+}
+
+.rlc-intro .rlc-title span {
+  font-size: 1.684em;
+  line-height: 1em;
+  display: block;
+}
+
+.rlc-intro .rlc-dek {
+  margin: 1.222em 0 0 0;
+  width: 11em;
+  font-family: "Founders Grotesk text Regular", Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+}
+.rlc-intro .rlc-dek {
+  width: 12em;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .candle-text {
+    left: 20%;
+    margin-bottom: 1rem;
+  }
+  .ft-info-border {
+    border: none;
+  }
+  .bath {
+    display: none;
+  }
+  .product-detail {
+    opacity: 1;
+  }
+  .product-box {
+    pointer-events: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rlc-intro {
+    margin: 2em 0;
+  }
+
+  .rlc-intro .rlc-copygroup {
+    margin-left: 3.5em;
+  }
+
+  .candle-text h1 {
+    font-size: 3rem;
+  }
+
+  .bath-text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .candle-text {
+    left: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .ft-info-border {
+    border: none;
+  }
+  .bath {
+    display: none;
+  }
+  .product-detail {
+    opacity: 1;
+  }
+  .product-box {
+    pointer-events: none;
+  }
+
+  .rlc-intro {
+    width: 18.438em;
+    text-align: center;
+    margin: 0 auto;
+    height: 16.875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  }
+
+  .rlc-intro .rlc-title {
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 1.25em;
+  }
+
+  .rlc-intro .rlc-title span {
+    font-size: 1.429em;
+  }
+
+  .rlc-intro .rlc-dek {
+    width: 12em;
+    margin: 1.25em auto 0;
+    line-height: 1.4em;
+    font-size: 1em;
+  }
+
+  .rlc-title {
+    font-size: 1.25em;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .address {
+    display: none;
+  }
+}

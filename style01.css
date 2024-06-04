@@ -1,0 +1,37 @@
+.btn-outline-success {
+  outline: 1px solid chocolate;
+  color: chocolate;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  background-color: chocolate;
+}
+
+.footer-style {
+  background-color: black;
+  color: white;
+}
+
+.footer-style a {
+  text-decoration: none;
+  color: white;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding: 0 2rem;
+  }
+
+  .col {
+    padding-bottom: 1rem;
+  }
+
+  .first-line {
+    text-align: center;
+  }
+}
