@@ -87,7 +87,11 @@ li a {
   color: black;
   position: absolute;
   bottom: 40%;
-  left: 5%;
+  left: -700px;
+}
+
+.bath {
+  font-family: "Founders Grotesk text Regular", Arial, Helvetica, sans-serif;
 }
 
 .btn-outline-light {
@@ -146,6 +150,17 @@ li a {
 
 .navbar-toggler {
   background-color: white;
+}
+
+@keyframes slideIn {
+  from {
+    left: -700px;
+    opacity: 0;
+  }
+  to {
+    left: 100px;
+    opacity: 1;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
